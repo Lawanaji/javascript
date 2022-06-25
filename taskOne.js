@@ -12,9 +12,9 @@ function calculate() {
   } else if (operator === "/") {
     compute = inputOne / inputTwo;
   } else {
-    return "There is an error in your values";
+    window.alert("There is an error in your values");
   }
-  return compute;
+  window.alert(compute);
 }
 
 calculate();
